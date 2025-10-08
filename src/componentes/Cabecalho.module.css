@@ -1,0 +1,16 @@
+.cabecalho{
+    width: 100vw;
+    height: 200px;
+    background-color: #340a5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: #b9b4bd;
+    
+}
