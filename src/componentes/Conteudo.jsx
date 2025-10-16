@@ -1,4 +1,5 @@
 import estilo from './Conteudo.module.css';
+import logo from '../assets/coracao.png'
 export function Conteudo(){
 
     return(

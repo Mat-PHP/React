@@ -1,16 +1,15 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
-import { Cabecalho } from './componentes/Cabecalho'
-import { BarraNavegacao } from './componentes/BarraNavegacao'
-import { Conteudo } from './componentes/Conteudo'
+import { Inicial } from './Paginas/Inicial'
+import { Rotas } from './Paginas/Rotas'
 
 function App() {
   
   return (
-    <>
-    <Cabecalho/>
-    <BarraNavegacao/>
-    <Conteudo/>
-    </>
+    <BrowserRouter>
+    <Rotas/>
+    </BrowserRouter>
+        
     
   )
 }
